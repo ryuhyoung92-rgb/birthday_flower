@@ -1,0 +1,51 @@
+body {background-color:#222;}
+#wrap {
+    background-color:#fff;
+    width:440px; height:956px;
+    margin:10px auto 0;
+    background-image:url(../images/bg1.jpg);
+    background-size:cover;/* w h */
+    background-repeat:no-repeat;/* 화면보다 이미지가 작을 때 */
+    background-position:center;/* x y */
+    padding:100px 0 0;
+    text-align:center;
+}
+#wrap #title {margin-bottom:30px;}
+#wrap #title p {
+    font-size:1.50rem;
+    margin-bottom:10px;
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+#wrap #title h1 {font-size:1.13rem;}
+#wrap #title h1 span {font-weight:600;}
+#wrap #birthday_frm {}
+#wrap #birthday_frm > * {
+    display:block;
+    margin:0 auto;
+}
+#wrap #birthday_frm input {
+    width:96px; height:32px;
+    border-radius:5px;
+    text-align:center;
+    font-size:0.75rem;
+    color:#000;
+}
+#wrap #birthday_frm input::placeholder {color:#ccc;}
+#wrap #birthday_frm input:focus {border:2px solid palevioletred}
+#wrap #birthday_frm #user_year {margin-bottom:8px;}
+#wrap #birthday_frm #user_month {margin-bottom:8px;}
+#wrap #birthday_frm #user_day {margin-bottom:40px;}
+#wrap #birthday_frm #birthday_btn {
+    width:240px; height:40px;
+    border-radius:20px;
+    background-color:#111;
+    color:#fff;
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+#wrap #birthday_frm #birthday_btn:hover {background-color:#555;}
