@@ -1,0 +1,43 @@
+body {background-color:#222;}
+#wrap {
+    width:440px; height:956px;
+    margin:10px auto;
+    background-image:url(../images/bg3.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align: center;
+    padding-top:100px;/* #wrap > #title */
+}
+#wrap #title {}
+#wrap #title, /* #title + #contents */
+#wrap #result {margin-bottom:60px;} /* #contents + button */
+#wrap #title p {
+    font-size:1.50rem;
+    margin:0 0 10px; /* p + h1 */
+}
+#wrap #title h1 {
+    font-size:1.13rem;
+    font-family:'MaruBuri-B', serif;
+}
+#wrap #result {}
+#wrap #result .user_birth_month {
+    color:#BD5F6B;
+    margin-bottom:10px; /* p + p */
+    font-style:italic;
+}
+#wrap #result .result {line-height:1.5;}
+#wrap #share_btn {
+    width:240px; line-height:40px;
+    background-color:#BD5F6B;
+    border-radius:20px;
+    color:#fff;
+    margin:0 auto 10px;
+}
+#wrap #share_btn:hover {background-color:#741212;}
+#wrap .back {
+    display:block;
+    font-size:0.88rem;
+    text-decoration: underline;
+}
+#wrap .back:hover {color:#303030}}
